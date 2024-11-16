@@ -1,0 +1,42 @@
+/* General File Upload Styles */
+.file-upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.file-upload-container input[type="file"] {
+    display: block;
+    width: 90%;
+    margin: 10px auto 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.file-upload-container button {
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.file-upload-container button:hover {
+    background-color: #005bb5;
+}
+
+@media (max-width: 480px) {
+    .file-upload-container input[type="file"],
+    .file-upload-container button {
+        width: 100%;
+    }
+}

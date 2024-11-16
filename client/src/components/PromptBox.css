@@ -1,0 +1,43 @@
+/* General Prompt Box Styles */
+.prompt-box-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.prompt-box-container textarea {
+    width: 90%;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.prompt-box-container button {
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.prompt-box-container button:hover {
+    background-color: #005bb5;
+}
+
+@media (max-width: 480px) {
+    .prompt-box-container textarea,
+    .prompt-box-container button {
+        width: 100%;
+    }
+}
